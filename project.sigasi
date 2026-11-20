@@ -1,0 +1,10 @@
+{
+    "name": "EBKHDL",
+    "targets": {
+        "rtl": {
+            "libraryMapping": {
+                "": "work"
+            }
+        }
+    }
+}
