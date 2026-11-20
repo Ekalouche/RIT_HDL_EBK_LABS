@@ -1,0 +1,1649 @@
+{
+  "version": 8,
+  "name": "EBKHDL",
+  "projectBaseDir": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL",
+  "compilationGroupModel": {
+    "groups": [
+      {
+        "language": "VHDL",
+        "currentWorkingDirectory": {
+          "platformUri": "platform:/resource/EBKHDL/Design/",
+          "fileUri": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/"
+        },
+        "resources": [
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_beh/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_struc/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/and_gate.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_str.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/or_gate.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/xor_gate.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@HDL_LAB2/full_adder_single_bit_arch/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@HDL_LAB2/full_adder_single_bit_arch/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_arch/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@src/full_adder_single_bit_arch/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@src/full_adder_single_bit_arch/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@HDL_LAB2",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_beh/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@generic_adder_beh/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg_tb.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@BCD/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/sum_register_tb.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Sum_register.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@Sum_register/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/generic_counter.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@Sum_register/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/blink_tb.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/blink.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/top.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@Add__Sub_3Bit/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Add__Sub_3Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/alu.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/memory.vhd",
+          "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+          "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_8bit.vhd"
+        ],
+        "includePaths": [],
+        "includeFallbackToLocalDirectory": false,
+        "additionalEnvVars": {},
+        "initialDefines": [],
+        "continueFrom": null,
+        "inferOrder": true,
+        "allowUndefine": false,
+        "allowUndefineAll": false,
+        "conditionalVariables": {},
+        "targetContext": {
+          "root": {
+            "project": "EBKHDL",
+            "version": "default",
+            "target": "rtl"
+          },
+          "actual": {
+            "project": "EBKHDL",
+            "version": "default",
+            "target": "rtl"
+          }
+        },
+        "allowFuzzyIncludeLookup": null
+      }
+    ],
+    "resourceTargetContexts": {
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_beh/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_struc/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/and_gate.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_str.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/or_gate.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/xor_gate.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@HDL_LAB2/full_adder_single_bit_arch/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@HDL_LAB2/full_adder_single_bit_arch/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_arch/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@src/full_adder_single_bit_arch/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@src/full_adder_single_bit_arch/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@HDL_LAB2": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_beh/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@generic_adder_beh/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg_tb.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@BCD/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/sum_register_tb.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Sum_register.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@Sum_register/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/generic_counter.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@Sum_register/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/blink_tb.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/blink.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/top.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@Add__Sub_3Bit/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Add__Sub_3Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/alu.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/memory.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      },
+      "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_8bit.vhd": {
+        "root": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        },
+        "actual": {
+          "project": "EBKHDL",
+          "version": "default",
+          "target": "rtl"
+        }
+      }
+    }
+  },
+  "linkedResources": [
+    {
+      "source": "platform:/resource/EBKHDL",
+      "target": "virtual:/virtual",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D",
+      "target": "virtual:/virtual",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/STD",
+      "target": "sigasiresource:/vhdl/2019/STD",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE",
+      "target": "sigasiresource:/vhdl/2019/IEEE",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE%20Synopsys",
+      "target": "sigasiresource:/vhdl/2019/IEEE%20Synopsys",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Design",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets",
+      "target": "virtual:/virtual",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl",
+      "target": "virtual:/virtual",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work",
+      "target": "virtual:/virtual",
+      "type": 2
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_beh/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_beh/sim/src/full_adder_single_bit_beh_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_beh/src/full_adder_single_bit_beh.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_struc/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/sim/src/full_adder_single_bit_beh_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/and_gate.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/and_gate.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_str.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/full_adder_single_bit_str.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/or_gate.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/or_gate.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/xor_gate.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/xor_gate.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@HDL_LAB2/full_adder_single_bit_arch/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/full_adder_single_bit_arch/sim/src/full_adder_single_bit_arch_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@HDL_LAB2/full_adder_single_bit_arch/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_arch/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/sim/src/generic_adder_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@src/full_adder_single_bit_arch/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/full_adder_single_bit_arch/sim/src/full_adder_single_bit_arch_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@src/full_adder_single_bit_arch/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/generic_adder_arch.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@HDL_LAB2",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_beh/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_beh/sim/src/generic_adder_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@generic_adder_beh/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_beh/src/generic_adder_beh.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg_tb.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/BCD/sim/src/seven_seg_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@BCD/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/BCD/src/seven_seg.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/sum_register_tb.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/sim/src/sum_register_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Sum_register.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/Sum_register.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@Sum_register/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/generic_adder_beh.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_counter.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/generic_counter.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@Sum_register/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/seven_seg.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/blink_tb.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/sim/src/blink_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/blink.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/src/blink.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/top.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/src/top.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@Add__Sub_3Bit/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Add_Sub_3Bit.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/BCD.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Operator.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Pader.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/add_sub.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/rising_edge_synchronizer.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Add__Sub_3Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/synchronizer_3bit.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Add_Sub_3Bit.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/BCD.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Operator.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Pader.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/add_sub.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/double_dabble.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/rising_edge_synchronizer.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/synchronizer_3bit.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/BCD.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/alu.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/alu.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/double_dabble.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/memory.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/memory.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/rising_edge_synchronizer.vhd",
+      "type": 1
+    },
+    {
+      "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_8bit.vhd",
+      "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/synchronizer_8bit.vhd",
+      "type": 1
+    }
+  ],
+  "resourceInformation": {
+    "platform:/resource/EBKHDL/Targets/rtl/Common%20Libraries": {
+      "library": "not mapped",
+      "version": null,
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work": {
+      "library": "work",
+      "version": null,
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_beh/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_struc/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/and_gate.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_str.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/or_gate.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/xor_gate.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@HDL_LAB2/full_adder_single_bit_arch/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@HDL_LAB2/full_adder_single_bit_arch/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_arch/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@src/full_adder_single_bit_arch/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@src/full_adder_single_bit_arch/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@HDL_LAB2": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_beh/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@generic_adder_beh/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg_tb.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@BCD/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/sum_register_tb.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Sum_register.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@Sum_register/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/generic_counter.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@Sum_register/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/blink_tb.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/blink.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/top.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@Add__Sub_3Bit/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Add__Sub_3Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/alu.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/memory.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_8bit.vhd": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    },
+    "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/STD": {
+      "library": "std",
+      "version": "VHDL 2019",
+      "isLibraryFile": true
+    },
+    "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE": {
+      "library": "ieee",
+      "version": "VHDL 2019",
+      "isLibraryFile": true
+    },
+    "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE%20Synopsys": {
+      "library": "ieee",
+      "version": "VHDL 2019",
+      "isLibraryFile": true
+    },
+    "platform:/resource/EBKHDL": {
+      "library": null,
+      "version": "VHDL 2019",
+      "isLibraryFile": false
+    }
+  },
+  "dependencyInformation": {},
+  "virtualFolderContents": {
+    "platform:/resource": [
+      {
+        "source": "platform:/resource/EBKHDL",
+        "target": "virtual:/virtual",
+        "type": 2
+      }
+    ],
+    "platform:/resource/EBKHDL": [
+      {
+        "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D",
+        "target": "virtual:/virtual",
+        "type": 2
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Design",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL",
+        "type": 2
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets",
+        "target": "virtual:/virtual",
+        "type": 2
+      }
+    ],
+    "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D": [
+      {
+        "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/STD",
+        "target": "sigasiresource:/vhdl/2019/STD",
+        "type": 2
+      },
+      {
+        "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE",
+        "target": "sigasiresource:/vhdl/2019/IEEE",
+        "type": 2
+      },
+      {
+        "source": "platform:/resource/EBKHDL/VHDL%20Standard%20Libraries%5B2019%5D/IEEE%20Synopsys",
+        "target": "sigasiresource:/vhdl/2019/IEEE%20Synopsys",
+        "type": 2
+      }
+    ],
+    "platform:/resource/EBKHDL/Targets": [
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl",
+        "target": "virtual:/virtual",
+        "type": 2
+      }
+    ],
+    "platform:/resource/EBKHDL/Targets/rtl": [
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work",
+        "target": "virtual:/virtual",
+        "type": 2
+      }
+    ],
+    "platform:/resource/EBKHDL/Targets/rtl/work": [
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_beh/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_beh/sim/src/full_adder_single_bit_beh_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_beh/src/full_adder_single_bit_beh.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_beh_tb.vhd?@full_adder_single_bit_struc/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/sim/src/full_adder_single_bit_beh_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/and_gate.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/and_gate.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_str.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/full_adder_single_bit_str.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/or_gate.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/or_gate.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/xor_gate.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB1/full_adder_single_bit_struc/src/xor_gate.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@HDL_LAB2/full_adder_single_bit_arch/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/full_adder_single_bit_arch/sim/src/full_adder_single_bit_arch_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@HDL_LAB2/full_adder_single_bit_arch/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_arch/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/sim/src/generic_adder_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch_tb.vhd?@src/full_adder_single_bit_arch/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/full_adder_single_bit_arch/sim/src/full_adder_single_bit_arch_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/full_adder_single_bit_arch.vhd?@src/full_adder_single_bit_arch/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/full_adder_single_bit_arch/src/full_adder_single_bit_arch.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch/src/generic_adder_arch.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_arch.vhd?@HDL_LAB2",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_arch.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_tb.vhd?@generic_adder_beh/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_beh/sim/src/generic_adder_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@generic_adder_beh/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB2/generic_adder_beh/src/generic_adder_beh.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg_tb.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/BCD/sim/src/seven_seg_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@BCD/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/BCD/src/seven_seg.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/sum_register_tb.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/sim/src/sum_register_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Sum_register.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/Sum_register.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_adder_beh.vhd?@Sum_register/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/generic_adder_beh.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/generic_counter.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/generic_counter.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/seven_seg.vhd?@Sum_register/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/Sum_register/src/seven_seg.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/blink_tb.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/sim/src/blink_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/blink.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/src/blink.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/top.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_LAB3/blink/src/top.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@Add__Sub_3Bit/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Add_Sub_3Bit.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/BCD.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Operator.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/Pader.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/add_sub.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/rising_edge_synchronizer.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Add__Sub_3Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab4/Hardware_Add_and_Subtract_3Bit/Add__Sub_3Bit/src/synchronizer_3bit.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Add_Sub_3Bit.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/BCD.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Operator.vhd?@Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Operator.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Pader.vhd?@Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/Pader.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/add_sub.vhd?@Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/add_sub.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/double_dabble.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab5/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/rising_edge_synchronizer.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_3bit.vhd?@Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab5/Hardware_Add_Sub_8_Bit/src/synchronizer_3bit.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/Add_Sub_3Bit_tb.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/sim/src/Add_Sub_3Bit_tb.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/BCD.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/BCD.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/alu.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/alu.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/double_dabble.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/double_dabble.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/memory.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/memory.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/rising_edge_synchronizer.vhd?@HDL_Lab6/Hardware_Add_Sub_8_Bit/src",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/rising_edge_synchronizer.vhd",
+        "type": 1
+      },
+      {
+        "source": "platform:/resource/EBKHDL/Targets/rtl/work/synchronizer_8bit.vhd",
+        "target": "file:///d:/Visual%20Studio%20Code%20Project%20Libary/EBKHDL/HDL_Lab6/Hardware_Add_Sub_8_Bit/src/synchronizer_8bit.vhd",
+        "type": 1
+      }
+    ]
+  },
+  "targets": {
+    "rtl": {
+      "directoryPath": "d:\\Visual Studio Code Project Libary\\EBKHDL",
+      "libraryMapping": {
+        "": [
+          "work"
+        ]
+      },
+      "declaredDependencies": [],
+      "kind": "MANUAL"
+    }
+  },
+  "configurableIncludes": {},
+  "trackedFiles": [
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\project.sigasi",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\.sigasi\\settings.json",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_beh\\sim\\src\\full_adder_single_bit_beh_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_beh\\src\\full_adder_single_bit_beh.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_struc\\sim\\src\\full_adder_single_bit_beh_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_struc\\src\\and_gate.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_struc\\src\\full_adder_single_bit_str.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_struc\\src\\or_gate.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB1\\full_adder_single_bit_struc\\src\\xor_gate.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\full_adder_single_bit_arch\\sim\\src\\full_adder_single_bit_arch_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\full_adder_single_bit_arch\\src\\full_adder_single_bit_arch.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_arch\\sim\\src\\generic_adder_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_arch\\src\\full_adder_single_bit_arch\\sim\\src\\full_adder_single_bit_arch_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_arch\\src\\full_adder_single_bit_arch\\src\\full_adder_single_bit_arch.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_arch\\src\\generic_adder_arch.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_arch.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_beh\\sim\\src\\generic_adder_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB2\\generic_adder_beh\\src\\generic_adder_beh.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\BCD\\sim\\src\\seven_seg_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\BCD\\src\\seven_seg.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\Sum_register\\sim\\src\\sum_register_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\Sum_register\\src\\Sum_register.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\Sum_register\\src\\generic_adder_beh.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\Sum_register\\src\\generic_counter.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\Sum_register\\src\\seven_seg.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\blink\\sim\\src\\blink_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\blink\\src\\blink.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_LAB3\\blink\\src\\top.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\sim\\src\\Add_Sub_3Bit_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\Add_Sub_3Bit.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\BCD.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\Operator.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\Pader.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\add_sub.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\rising_edge_synchronizer.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab4\\Hardware_Add_and_Subtract_3Bit\\Add__Sub_3Bit\\src\\synchronizer_3bit.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\sim\\src\\Add_Sub_3Bit_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\Add_Sub_3Bit.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\BCD.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\Operator.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\Pader.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\add_sub.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\double_dabble.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\rising_edge_synchronizer.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab5\\Hardware_Add_Sub_8_Bit\\src\\synchronizer_3bit.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\sim\\src\\Add_Sub_3Bit_tb.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\BCD.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\alu.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\double_dabble.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\memory.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\rising_edge_synchronizer.vhd",
+    "d:\\Visual Studio Code Project Libary\\EBKHDL\\HDL_Lab6\\Hardware_Add_Sub_8_Bit\\src\\synchronizer_8bit.vhd"
+  ],
+  "cachedVersionMapping": null
+}
