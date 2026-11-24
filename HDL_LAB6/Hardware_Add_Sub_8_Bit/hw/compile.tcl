@@ -26,10 +26,14 @@ set_global_assignment -name VHDL_FILE ../../src/alu.vhd
 set_global_assignment -name VHDL_FILE ../../src/FSM.vhd
 set_global_assignment -name VHDL_FILE ../../src/Calculator.vhd
 
-# Clock and pushbuttons
+# 50 MHz clock
 set_location_assignment PIN_AF14 -to clk
-set_location_assignment PIN_AA14 -to reset_n
-set_location_assignment PIN_Y16  -to execute
+
+# Pushbuttons
+# KEY0 - Execute
+# KEY1 - Reset
+set_location_assignment PIN_AA14 -to execute
+set_location_assignment PIN_AA15 -to reset_n
 
 # State LEDs
 set_location_assignment PIN_V16 -to {led[0]}
@@ -38,7 +42,7 @@ set_location_assignment PIN_V17 -to {led[2]}
 set_location_assignment PIN_V18 -to {led[3]}
 set_location_assignment PIN_W17 -to {led[4]}
 
-# 8-bit calculator input switches
+# Calculator input switches SW0-SW7
 set_location_assignment PIN_AB12 -to {switch[0]}
 set_location_assignment PIN_AC12 -to {switch[1]}
 set_location_assignment PIN_AF9  -to {switch[2]}
@@ -48,7 +52,11 @@ set_location_assignment PIN_AD12 -to {switch[5]}
 set_location_assignment PIN_AE11 -to {switch[6]}
 set_location_assignment PIN_AC9  -to {switch[7]}
 
-# Operation selection switches
+# Operation selection switches SW8-SW9
+# 00 = Addition
+# 01 = Subtraction
+# 10 = Multiplication
+# 11 = Division
 set_location_assignment PIN_AD10 -to {op[0]}
 set_location_assignment PIN_AE12 -to {op[1]}
 
@@ -79,6 +87,6 @@ set_location_assignment PIN_AD30 -to {bcd_2[4]}
 set_location_assignment PIN_AC29 -to {bcd_2[5]}
 set_location_assignment PIN_AC30 -to {bcd_2[6]}
 
-# Compile the project
+# Compile project
 execute_flow -compile
 project_close

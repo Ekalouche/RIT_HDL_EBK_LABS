@@ -44,16 +44,18 @@ architecture behavior of Calculator is
     -- Calculator state machine
     component state_machine is
         port (
-            clk          : in  std_logic;
-            reset        : in  std_logic;
-            execute      : in  std_logic;
-            op_select    : in  std_logic_vector(1 downto 0);
-            memory_data  : in  std_logic_vector(7 downto 0);
-            op           : out std_logic_vector(1 downto 0);
-            a            : out std_logic_vector(7 downto 0);
-            write_enable : out std_logic;
-            addr         : out std_logic_vector(1 downto 0);
-            state_led    : out std_logic_vector(4 downto 0)
+            clk            : in  std_logic;
+            reset          : in  std_logic;
+            execute        : in  std_logic;
+            op_select      : in  std_logic_vector(1 downto 0);
+            memory_data    : in  std_logic_vector(7 downto 0);
+            switch_data    : in  std_logic_vector(7 downto 0);
+            op             : out std_logic_vector(1 downto 0);
+            a              : out std_logic_vector(7 downto 0);
+            write_enable   : out std_logic;
+            addr           : out std_logic_vector(1 downto 0);
+            state_led      : out std_logic_vector(4 downto 0);
+            display_select : out std_logic
         );
     end component;
 
@@ -119,6 +121,10 @@ architecture behavior of Calculator is
     signal Tens             : std_logic_vector(3 downto 0);
     signal Hundreds         : std_logic_vector(3 downto 0);
 
+    -- Signals used to select the displayed value
+    signal Display_select   : std_logic;
+    signal Display_data     : std_logic_vector(7 downto 0);
+
 begin
 
     -- Invert the active-low reset pushbutton
@@ -133,7 +139,7 @@ begin
             sync_out => B_sync
         );
 
-    -- Synchronize the two operation selection switches
+    -- Synchronize the operation selection switches
     U2 : synchronizer_8bit
         port map (
             clk      => clk,
@@ -151,19 +157,21 @@ begin
             edge  => Execute_sync
         );
 
-    -- Control the ALU operation and memory
+    -- Control the ALU, memory, and display selection
     U4 : state_machine
         port map (
-            clk          => clk,
-            reset        => reset_sig,
-            execute      => Execute_sync,
-            op_select    => Op_sync(1 downto 0),
-            memory_data  => Memory_data,
-            op           => Operation,
-            a            => A,
-            write_enable => Write_enable_sig,
-            addr         => Memory_address,
-            state_led    => led
+            clk            => clk,
+            reset          => reset_sig,
+            execute        => Execute_sync,
+            op_select      => Op_sync(1 downto 0),
+            memory_data    => Memory_data,
+            switch_data    => B_sync,
+            op             => Operation,
+            a              => A,
+            write_enable   => Write_enable_sig,
+            addr           => Memory_address,
+            state_led      => led,
+            display_select => Display_select
         );
 
     -- Perform the selected arithmetic operation
@@ -176,7 +184,7 @@ begin
             result => Result
         );
 
-    -- Store the calculator results in a 4 x 8-bit memory
+    -- Store calculator results in a 4 x 8-bit memory
     U6 : memory
         generic map (
             addr_width => 2,
@@ -190,10 +198,16 @@ begin
             dout => Memory_data
         );
 
-    -- Pad the stored 8-bit result to 12 bits
-    Result_padded <= "0000" & Memory_data;
+    -- Display multiplexer
+    -- 0 = Display the current input switches
+    -- 1 = Display the result stored in memory
+    Display_data <= B_sync when Display_select = '0'
+                    else Memory_data;
 
-    -- Convert the stored result into three decimal digits
+    -- Pad the selected 8-bit value to 12 bits
+    Result_padded <= "0000" & Display_data;
+
+    -- Convert the selected value into three decimal digits
     U7 : double_dabble
         port map (
             result_padded => Result_padded,
