@@ -5,21 +5,21 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity Calculator_8Bit is
+entity Calculator is
     port (
-        clk            : in  std_logic;
-        reset          : in  std_logic;
-        execute_btn    : in  std_logic;
-        b              : in  std_logic_vector(7 downto 0);
-        op_select      : in  std_logic_vector(1 downto 0);
-        ones_bcd       : out std_logic_vector(6 downto 0);
-        tens_bcd       : out std_logic_vector(6 downto 0);
-        hundreds_bcd   : out std_logic_vector(6 downto 0);
-        state_led      : out std_logic_vector(4 downto 0)
+        clk     : in  std_logic;
+        reset_n : in  std_logic;
+        execute : in  std_logic;
+        switch  : in  std_logic_vector(7 downto 0);
+        op      : in  std_logic_vector(1 downto 0);
+        bcd_0   : out std_logic_vector(6 downto 0);
+        bcd_1   : out std_logic_vector(6 downto 0);
+        bcd_2   : out std_logic_vector(6 downto 0);
+        led     : out std_logic_vector(4 downto 0)
     );
-end Calculator_8Bit;
+end Calculator;
 
-architecture behavior of Calculator_8Bit is
+architecture behavior of Calculator is
 
     -- 8-bit input synchronizer
     component synchronizer_8bit is
@@ -31,7 +31,7 @@ architecture behavior of Calculator_8Bit is
         );
     end component;
 
-    -- Execute button rising edge synchronizer
+    -- Rising edge synchronizer
     component rising_edge_synchronizer is
         port (
             clk   : in  std_logic;
@@ -105,7 +105,6 @@ architecture behavior of Calculator_8Bit is
 
     -- Internal signals
     signal reset_sig        : std_logic;
-    signal reset_meta       : std_logic;
     signal B_sync           : std_logic_vector(7 downto 0);
     signal Op_sync          : std_logic_vector(7 downto 0);
     signal Execute_sync     : std_logic;
@@ -122,22 +121,24 @@ architecture behavior of Calculator_8Bit is
 
 begin
 
-    -- Synchronize the 8-bit calculator input
+    -- Invert the active-low reset pushbutton
+    reset_sig <= not reset_n;
+
+    -- Synchronize the eight input switches
     U1 : synchronizer_8bit
         port map (
             clk      => clk,
             reset    => reset_sig,
-            async_in => b,
+            async_in => switch,
             sync_out => B_sync
         );
 
     -- Synchronize the two operation selection switches
-    -- Pad the remaining six bits with zeros
     U2 : synchronizer_8bit
         port map (
             clk      => clk,
             reset    => reset_sig,
-            async_in => "000000" & op_select,
+            async_in => "000000" & op,
             sync_out => Op_sync
         );
 
@@ -146,7 +147,7 @@ begin
         port map (
             clk   => clk,
             reset => reset_sig,
-            input => not execute_btn,
+            input => not execute,
             edge  => Execute_sync
         );
 
@@ -162,7 +163,7 @@ begin
             a            => A,
             write_enable => Write_enable_sig,
             addr         => Memory_address,
-            state_led    => state_led
+            state_led    => led
         );
 
     -- Perform the selected arithmetic operation
@@ -201,31 +202,31 @@ begin
             hundreds      => Hundreds
         );
 
-    -- Display the ones digit
+    -- Display the ones digit on HEX0
     U8 : BCD
         port map (
             clk           => clk,
             reset         => reset_sig,
             bcd           => Ones,
-            seven_seg_out => ones_bcd
+            seven_seg_out => bcd_0
         );
 
-    -- Display the tens digit
+    -- Display the tens digit on HEX1
     U9 : BCD
         port map (
             clk           => clk,
             reset         => reset_sig,
             bcd           => Tens,
-            seven_seg_out => tens_bcd
+            seven_seg_out => bcd_1
         );
 
-    -- Display the hundreds digit
+    -- Display the hundreds digit on HEX2
     U10 : BCD
         port map (
             clk           => clk,
             reset         => reset_sig,
             bcd           => Hundreds,
-            seven_seg_out => hundreds_bcd
+            seven_seg_out => bcd_2
         );
 
 end behavior;

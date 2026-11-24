@@ -12,7 +12,7 @@ entity synchronizer_8bit is
     async_in          : in std_logic_vector(7 downto 0);
     sync_out          : out std_logic_vector(7 downto 0)
   );
-end synchronizer_3bit;
+end synchronizer_8bit;
 
 architecture beh of synchronizer_8bit is
 -- signal declarations
